@@ -15,6 +15,8 @@
 		A4D19F502633E4BF009BD519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D19F4E2633E4BF009BD519 /* LaunchScreen.storyboard */; };
 		A4D19F5B2633E4C0009BD519 /* Kazuma_Task7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D19F5A2633E4C0009BD519 /* Kazuma_Task7Tests.swift */; };
 		A4D19F662633E4C0009BD519 /* Kazuma_Task7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D19F652633E4C0009BD519 /* Kazuma_Task7UITests.swift */; };
+		A4D19F772633FA42009BD519 /* PlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D19F762633FA42009BD519 /* PlusViewController.swift */; };
+		A4D19F7C2633FA56009BD519 /* MinusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D19F7B2633FA56009BD519 /* MinusViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A4D19F612633E4C0009BD519 /* Kazuma-Task7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kazuma-Task7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D19F652633E4C0009BD519 /* Kazuma_Task7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kazuma_Task7UITests.swift; sourceTree = "<group>"; };
 		A4D19F672633E4C0009BD519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D19F762633FA42009BD519 /* PlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusViewController.swift; sourceTree = "<group>"; };
+		A4D19F7B2633FA56009BD519 /* MinusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinusViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				A4D19F432633E4BE009BD519 /* AppDelegate.swift */,
 				A4D19F452633E4BE009BD519 /* SceneDelegate.swift */,
 				A4D19F472633E4BE009BD519 /* ViewController.swift */,
+				A4D19F762633FA42009BD519 /* PlusViewController.swift */,
+				A4D19F7B2633FA56009BD519 /* MinusViewController.swift */,
 				A4D19F492633E4BE009BD519 /* Main.storyboard */,
 				A4D19F4C2633E4BF009BD519 /* Assets.xcassets */,
 				A4D19F4E2633E4BF009BD519 /* LaunchScreen.storyboard */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D19F7C2633FA56009BD519 /* MinusViewController.swift in Sources */,
 				A4D19F482633E4BE009BD519 /* ViewController.swift in Sources */,
 				A4D19F442633E4BE009BD519 /* AppDelegate.swift in Sources */,
+				A4D19F772633FA42009BD519 /* PlusViewController.swift in Sources */,
 				A4D19F462633E4BE009BD519 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
