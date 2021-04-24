@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4D19F442633E4BE009BD519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D19F432633E4BE009BD519 /* AppDelegate.swift */; };
+		A4D19F462633E4BE009BD519 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D19F452633E4BE009BD519 /* SceneDelegate.swift */; };
+		A4D19F482633E4BE009BD519 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D19F472633E4BE009BD519 /* ViewController.swift */; };
+		A4D19F4B2633E4BE009BD519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D19F492633E4BE009BD519 /* Main.storyboard */; };
+		A4D19F4D2633E4BF009BD519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D19F4C2633E4BF009BD519 /* Assets.xcassets */; };
+		A4D19F502633E4BF009BD519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D19F4E2633E4BF009BD519 /* LaunchScreen.storyboard */; };
+		A4D19F5B2633E4C0009BD519 /* Kazuma_Task7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D19F5A2633E4C0009BD519 /* Kazuma_Task7Tests.swift */; };
+		A4D19F662633E4C0009BD519 /* Kazuma_Task7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D19F652633E4C0009BD519 /* Kazuma_Task7UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4D19F572633E4C0009BD519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D19F382633E4BE009BD519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4D19F3F2633E4BE009BD519;
+			remoteInfo = "Kazuma-Task7";
+		};
+		A4D19F622633E4C0009BD519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D19F382633E4BE009BD519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4D19F3F2633E4BE009BD519;
+			remoteInfo = "Kazuma-Task7";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4D19F402633E4BE009BD519 /* Kazuma-Task7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kazuma-Task7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D19F432633E4BE009BD519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4D19F452633E4BE009BD519 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A4D19F472633E4BE009BD519 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4D19F4A2633E4BE009BD519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4D19F4C2633E4BF009BD519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4D19F4F2633E4BF009BD519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4D19F512633E4BF009BD519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D19F562633E4C0009BD519 /* Kazuma-Task7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kazuma-Task7Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D19F5A2633E4C0009BD519 /* Kazuma_Task7Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kazuma_Task7Tests.swift; sourceTree = "<group>"; };
+		A4D19F5C2633E4C0009BD519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D19F612633E4C0009BD519 /* Kazuma-Task7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kazuma-Task7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D19F652633E4C0009BD519 /* Kazuma_Task7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kazuma_Task7UITests.swift; sourceTree = "<group>"; };
+		A4D19F672633E4C0009BD519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4D19F3D2633E4BE009BD519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D19F532633E4C0009BD519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D19F5E2633E4C0009BD519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4D19F372633E4BE009BD519 = {
+			isa = PBXGroup;
+			children = (
+				A4D19F422633E4BE009BD519 /* Kazuma-Task7 */,
+				A4D19F592633E4C0009BD519 /* Kazuma-Task7Tests */,
+				A4D19F642633E4C0009BD519 /* Kazuma-Task7UITests */,
+				A4D19F412633E4BE009BD519 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4D19F412633E4BE009BD519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4D19F402633E4BE009BD519 /* Kazuma-Task7.app */,
+				A4D19F562633E4C0009BD519 /* Kazuma-Task7Tests.xctest */,
+				A4D19F612633E4C0009BD519 /* Kazuma-Task7UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4D19F422633E4BE009BD519 /* Kazuma-Task7 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D19F432633E4BE009BD519 /* AppDelegate.swift */,
+				A4D19F452633E4BE009BD519 /* SceneDelegate.swift */,
+				A4D19F472633E4BE009BD519 /* ViewController.swift */,
+				A4D19F492633E4BE009BD519 /* Main.storyboard */,
+				A4D19F4C2633E4BF009BD519 /* Assets.xcassets */,
+				A4D19F4E2633E4BF009BD519 /* LaunchScreen.storyboard */,
+				A4D19F512633E4BF009BD519 /* Info.plist */,
+			);
+			path = "Kazuma-Task7";
+			sourceTree = "<group>";
+		};
+		A4D19F592633E4C0009BD519 /* Kazuma-Task7Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A4D19F5A2633E4C0009BD519 /* Kazuma_Task7Tests.swift */,
+				A4D19F5C2633E4C0009BD519 /* Info.plist */,
+			);
+			path = "Kazuma-Task7Tests";
+			sourceTree = "<group>";
+		};
+		A4D19F642633E4C0009BD519 /* Kazuma-Task7UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4D19F652633E4C0009BD519 /* Kazuma_Task7UITests.swift */,
+				A4D19F672633E4C0009BD519 /* Info.plist */,
+			);
+			path = "Kazuma-Task7UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4D19F3F2633E4BE009BD519 /* Kazuma-Task7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D19F6A2633E4C0009BD519 /* Build configuration list for PBXNativeTarget "Kazuma-Task7" */;
+			buildPhases = (
+				A4D19F3C2633E4BE009BD519 /* Sources */,
+				A4D19F3D2633E4BE009BD519 /* Frameworks */,
+				A4D19F3E2633E4BE009BD519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kazuma-Task7";
+			productName = "Kazuma-Task7";
+			productReference = A4D19F402633E4BE009BD519 /* Kazuma-Task7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4D19F552633E4C0009BD519 /* Kazuma-Task7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D19F6D2633E4C0009BD519 /* Build configuration list for PBXNativeTarget "Kazuma-Task7Tests" */;
+			buildPhases = (
+				A4D19F522633E4C0009BD519 /* Sources */,
+				A4D19F532633E4C0009BD519 /* Frameworks */,
+				A4D19F542633E4C0009BD519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4D19F582633E4C0009BD519 /* PBXTargetDependency */,
+			);
+			name = "Kazuma-Task7Tests";
+			productName = "Kazuma-Task7Tests";
+			productReference = A4D19F562633E4C0009BD519 /* Kazuma-Task7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4D19F602633E4C0009BD519 /* Kazuma-Task7UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D19F702633E4C0009BD519 /* Build configuration list for PBXNativeTarget "Kazuma-Task7UITests" */;
+			buildPhases = (
+				A4D19F5D2633E4C0009BD519 /* Sources */,
+				A4D19F5E2633E4C0009BD519 /* Frameworks */,
+				A4D19F5F2633E4C0009BD519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4D19F632633E4C0009BD519 /* PBXTargetDependency */,
+			);
+			name = "Kazuma-Task7UITests";
+			productName = "Kazuma-Task7UITests";
+			productReference = A4D19F612633E4C0009BD519 /* Kazuma-Task7UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4D19F382633E4BE009BD519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A4D19F3F2633E4BE009BD519 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A4D19F552633E4C0009BD519 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A4D19F3F2633E4BE009BD519;
+					};
+					A4D19F602633E4C0009BD519 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A4D19F3F2633E4BE009BD519;
+					};
+				};
+			};
+			buildConfigurationList = A4D19F3B2633E4BE009BD519 /* Build configuration list for PBXProject "Kazuma-Task7" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4D19F372633E4BE009BD519;
+			productRefGroup = A4D19F412633E4BE009BD519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4D19F3F2633E4BE009BD519 /* Kazuma-Task7 */,
+				A4D19F552633E4C0009BD519 /* Kazuma-Task7Tests */,
+				A4D19F602633E4C0009BD519 /* Kazuma-Task7UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4D19F3E2633E4BE009BD519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D19F502633E4BF009BD519 /* LaunchScreen.storyboard in Resources */,
+				A4D19F4D2633E4BF009BD519 /* Assets.xcassets in Resources */,
+				A4D19F4B2633E4BE009BD519 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D19F542633E4C0009BD519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D19F5F2633E4C0009BD519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4D19F3C2633E4BE009BD519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D19F482633E4BE009BD519 /* ViewController.swift in Sources */,
+				A4D19F442633E4BE009BD519 /* AppDelegate.swift in Sources */,
+				A4D19F462633E4BE009BD519 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D19F522633E4C0009BD519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D19F5B2633E4C0009BD519 /* Kazuma_Task7Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D19F5D2633E4C0009BD519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D19F662633E4C0009BD519 /* Kazuma_Task7UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4D19F582633E4C0009BD519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4D19F3F2633E4BE009BD519 /* Kazuma-Task7 */;
+			targetProxy = A4D19F572633E4C0009BD519 /* PBXContainerItemProxy */;
+		};
+		A4D19F632633E4C0009BD519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4D19F3F2633E4BE009BD519 /* Kazuma-Task7 */;
+			targetProxy = A4D19F622633E4C0009BD519 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4D19F492633E4BE009BD519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D19F4A2633E4BE009BD519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4D19F4E2633E4BF009BD519 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D19F4F2633E4BF009BD519 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4D19F682633E4C0009BD519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4D19F692633E4C0009BD519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4D19F6B2633E4C0009BD519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HSC6WJMH6;
+				INFOPLIST_FILE = "Kazuma-Task7/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.kazuma.miura2.Kazuma-Task7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4D19F6C2633E4C0009BD519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HSC6WJMH6;
+				INFOPLIST_FILE = "Kazuma-Task7/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.kazuma.miura2.Kazuma-Task7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4D19F6E2633E4C0009BD519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HSC6WJMH6;
+				INFOPLIST_FILE = "Kazuma-Task7Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.kazuma.miura2.Kazuma-Task7Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kazuma-Task7.app/Kazuma-Task7";
+			};
+			name = Debug;
+		};
+		A4D19F6F2633E4C0009BD519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HSC6WJMH6;
+				INFOPLIST_FILE = "Kazuma-Task7Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.kazuma.miura2.Kazuma-Task7Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kazuma-Task7.app/Kazuma-Task7";
+			};
+			name = Release;
+		};
+		A4D19F712633E4C0009BD519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HSC6WJMH6;
+				INFOPLIST_FILE = "Kazuma-Task7UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.kazuma.miura2.Kazuma-Task7UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kazuma-Task7";
+			};
+			name = Debug;
+		};
+		A4D19F722633E4C0009BD519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HSC6WJMH6;
+				INFOPLIST_FILE = "Kazuma-Task7UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.kazuma.miura2.Kazuma-Task7UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kazuma-Task7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4D19F3B2633E4BE009BD519 /* Build configuration list for PBXProject "Kazuma-Task7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D19F682633E4C0009BD519 /* Debug */,
+				A4D19F692633E4C0009BD519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D19F6A2633E4C0009BD519 /* Build configuration list for PBXNativeTarget "Kazuma-Task7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D19F6B2633E4C0009BD519 /* Debug */,
+				A4D19F6C2633E4C0009BD519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D19F6D2633E4C0009BD519 /* Build configuration list for PBXNativeTarget "Kazuma-Task7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D19F6E2633E4C0009BD519 /* Debug */,
+				A4D19F6F2633E4C0009BD519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D19F702633E4C0009BD519 /* Build configuration list for PBXNativeTarget "Kazuma-Task7UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D19F712633E4C0009BD519 /* Debug */,
+				A4D19F722633E4C0009BD519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4D19F382633E4BE009BD519 /* Project object */;
+}
