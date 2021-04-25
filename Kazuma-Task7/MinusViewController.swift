@@ -14,8 +14,8 @@ class MinusViewController: UIViewController {
     @IBOutlet private weak var resultLabel: UILabel!
     
     @IBAction func minus(_ sender: Any) {
-        let num1 = Double(textField1.text ?? "")  ?? 0
-        let num2 = Double(textField2.text ?? "")  ?? 0
+        let num1 = Double(textField1.text ?? "") ?? 0
+        let num2 = Double(textField2.text ?? "") ?? 0
         let result = num1 - num2
         resultLabel.text = String(result)
     }
